@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = Aloha::Rails::VERSION
 
   gem.add_dependency(%q<rails>, ["~> 4.0"])
-  gem.add_dependency(%q<jquery-rails>, ["~> 2.0"])
+  gem.add_dependency(%q<jquery-rails>, [">= 2.0"])
 
   gem.add_development_dependency %q<rspec-rails>, ["~> 2.8"]
 end
